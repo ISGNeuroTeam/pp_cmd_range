@@ -124,3 +124,5 @@ query: | otl_v1 <# makeresults count=100 #> |  range "new_col", 1, 37, number=10
 ```
 ## Deploy
 Unpack archive `pp_cmd_range` to postprocessing commands directory
+## Test
+Use `make test` and all test will run in Docker container. Please turn the vpn on so all the OTL dependencies would download.
